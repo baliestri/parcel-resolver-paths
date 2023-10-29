@@ -1,0 +1,9 @@
+{
+  "semi": true,
+  "singleQuote": false,
+  "trailingComma": "none",
+  "printWidth": 130,
+  "vueIndentScriptAndStyle": true,
+  "singleAttributePerLine": true,
+  "embeddedLanguageFormatting": "off"
+}

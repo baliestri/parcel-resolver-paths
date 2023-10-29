@@ -1,0 +1,48 @@
+{
+  "name": "@baliestri/parcel-resolver-paths",
+  "version": "0.0.0",
+  "description": "Parcel.js resolver for jsconfig/tsconfig paths",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "parcel": ">=2.x.x"
+  },
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "parcel build",
+    "prepublish": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baliestri/parcel-resolver-paths.git"
+  },
+  "keywords": [
+    "parcel",
+    "resolver",
+    "paths",
+    "jsconfig",
+    "tsconfig"
+  ],
+  "author": "Bruno Sales <me@baliestri.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.10.1",
+    "@parcel/transformer-typescript-types": "^2.10.1",
+    "@types/node": "^20.8.9",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "parcel": "^2.10.1",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  }
+}
