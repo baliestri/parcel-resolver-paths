@@ -1,6 +1,6 @@
 {
   "name": "@baliestri/parcel-resolver-paths",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Parcel.js resolver for jsconfig/tsconfig paths",
   "publishConfig": {
     "access": "public"
