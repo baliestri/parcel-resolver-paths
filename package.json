@@ -1,6 +1,6 @@
 {
   "name": "@baliestri/parcel-resolver-paths",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Parcel.js resolver for jsconfig/tsconfig paths",
   "publishConfig": {
     "access": "public"
@@ -31,6 +31,15 @@
   ],
   "author": "Bruno Sales <me@baliestri.dev>",
   "license": "MIT",
+  "dependencies": {
+    "@parcel/plugin": "^2.10.1",
+    "jsonc-parser": "^3.2.0"
+  },
+  "peerDependencies": {
+    "@parcel/diagnostic": "^2.10.1",
+    "@parcel/fs": "^2.10.1",
+    "@parcel/types": "^2.10.1"
+  },
   "devDependencies": {
     "@parcel/packager-ts": "^2.10.1",
     "@parcel/transformer-typescript-types": "^2.10.1",
@@ -39,6 +48,7 @@
     "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-prettier": "^5.0.1",
     "parcel": "^2.10.1",
     "prettier": "^3.0.3",
