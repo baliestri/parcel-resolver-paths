@@ -1,0 +1,9 @@
+.github/
+.parcel-cache/
+node_modules/
+src/
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+tsconfig.json
